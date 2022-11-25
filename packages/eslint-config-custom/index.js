@@ -6,6 +6,10 @@ module.exports = {
     'eslint:recommended',
     'plugin:node/recommended',
   ],
+  env: {
+    browser: true,
+    node: true,
+  },
   plugins: ['node', 'prettier'],
   rules: {
     'prettier/prettier': 'error',
@@ -57,6 +61,7 @@ module.exports = {
         'node/no-unsupported-features/es-syntax': 'off',
         'node/no-unpublished-import': 'off',
         'node/no-missing-require': 'off',
+        'node/no-extraneous-import': 'off',
         'node/shebang': 'off',
         'no-dupe-class-members': 'off',
         'require-atomic-updates': 'off',
