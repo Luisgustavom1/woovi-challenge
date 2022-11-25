@@ -1,0 +1,9 @@
+{
+  "name": "jest",
+  "version": "1.0.0",
+  "license": "ISC",
+  "private": true,
+  "files": [
+    "base.config.js"
+  ]
+}
